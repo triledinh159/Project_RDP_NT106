@@ -1,0 +1,86 @@
+C:\Users\acer\Desktop\Project_RDP_NT106\RDP\bin\x64\Debug\RDP.exe.config
+C:\Users\acer\Desktop\Project_RDP_NT106\RDP\bin\x64\Debug\RDP.exe
+C:\Users\acer\Desktop\Project_RDP_NT106\RDP\bin\x64\Debug\RDP.pdb
+C:\Users\acer\Desktop\Project_RDP_NT106\RDP\bin\x64\Debug\AxMSTSCLib.dll
+C:\Users\acer\Desktop\Project_RDP_NT106\RDP\bin\x64\Debug\MSTSCLib.dll
+C:\Users\acer\Desktop\Project_RDP_NT106\RDP\bin\x64\Debug\Newtonsoft.Json.dll
+C:\Users\acer\Desktop\Project_RDP_NT106\RDP\bin\x64\Debug\ZeroTier.Sockets.dll
+C:\Users\acer\Desktop\Project_RDP_NT106\RDP\bin\x64\Debug\libzt.dll
+C:\Users\acer\Desktop\Project_RDP_NT106\RDP\bin\x64\Debug\ZeroTier.Source.ReadOnly\AddressInfo.cs
+C:\Users\acer\Desktop\Project_RDP_NT106\RDP\bin\x64\Debug\ZeroTier.Source.ReadOnly\Constants.cs
+C:\Users\acer\Desktop\Project_RDP_NT106\RDP\bin\x64\Debug\ZeroTier.Source.ReadOnly\Event.cs
+C:\Users\acer\Desktop\Project_RDP_NT106\RDP\bin\x64\Debug\ZeroTier.Source.ReadOnly\MulticastInfo.cs
+C:\Users\acer\Desktop\Project_RDP_NT106\RDP\bin\x64\Debug\ZeroTier.Source.ReadOnly\NetworkInfo.cs
+C:\Users\acer\Desktop\Project_RDP_NT106\RDP\bin\x64\Debug\ZeroTier.Source.ReadOnly\NetworkStream.cs
+C:\Users\acer\Desktop\Project_RDP_NT106\RDP\bin\x64\Debug\ZeroTier.Source.ReadOnly\Node.cs
+C:\Users\acer\Desktop\Project_RDP_NT106\RDP\bin\x64\Debug\ZeroTier.Source.ReadOnly\NodeInfo.cs
+C:\Users\acer\Desktop\Project_RDP_NT106\RDP\bin\x64\Debug\ZeroTier.Source.ReadOnly\PeerInfo.cs
+C:\Users\acer\Desktop\Project_RDP_NT106\RDP\bin\x64\Debug\ZeroTier.Source.ReadOnly\RouteInfo.cs
+C:\Users\acer\Desktop\Project_RDP_NT106\RDP\bin\x64\Debug\ZeroTier.Source.ReadOnly\Socket.cs
+C:\Users\acer\Desktop\Project_RDP_NT106\RDP\bin\x64\Debug\ZeroTier.Source.ReadOnly\SocketException.cs
+C:\Users\acer\Desktop\Project_RDP_NT106\RDP\bin\x64\Debug\ZeroTier.Source.ReadOnly\example.cs
+C:\Users\acer\Desktop\Project_RDP_NT106\RDP\bin\x64\Debug\AxInterop.RDPCOMAPILib.dll
+C:\Users\acer\Desktop\Project_RDP_NT106\RDP\bin\x64\Debug\Interop.RDPCOMAPILib.dll
+C:\Users\acer\Desktop\Project_RDP_NT106\RDP\obj\x64\Debug\RDP.csproj.AssemblyReference.cache
+C:\Users\acer\Desktop\Project_RDP_NT106\RDP\obj\x64\Debug\RDP.csproj.SuggestedBindingRedirects.cache
+C:\Users\acer\Desktop\Project_RDP_NT106\RDP\obj\x64\Debug\Interop.MsRdpSessionManager.dll
+C:\Users\acer\Desktop\Project_RDP_NT106\RDP\obj\x64\Debug\Interop.MsRdpWebAccessLib.dll
+C:\Users\acer\Desktop\Project_RDP_NT106\RDP\obj\x64\Debug\Interop.MSTSCLib.dll
+C:\Users\acer\Desktop\Project_RDP_NT106\RDP\obj\x64\Debug\Interop.PXWizardProxyStub.dll
+C:\Users\acer\Desktop\Project_RDP_NT106\RDP\obj\x64\Debug\Interop.RDPCOMAPILib.dll
+C:\Users\acer\Desktop\Project_RDP_NT106\RDP\obj\x64\Debug\Interop.RdpCoreTSLib.dll
+C:\Users\acer\Desktop\Project_RDP_NT106\RDP\obj\x64\Debug\Interop.RDPRelayTransportConnectorLib.dll
+C:\Users\acer\Desktop\Project_RDP_NT106\RDP\obj\x64\Debug\RDP.csproj.ResolveComReference.cache
+C:\Users\acer\Desktop\Project_RDP_NT106\RDP\obj\x64\Debug\RDP.Chat.resources
+C:\Users\acer\Desktop\Project_RDP_NT106\RDP\obj\x64\Debug\RDP.Login.resources
+C:\Users\acer\Desktop\Project_RDP_NT106\RDP\obj\x64\Debug\RDP.ScreenShare.resources
+C:\Users\acer\Desktop\Project_RDP_NT106\RDP\obj\x64\Debug\RDP.Properties.Resources.resources
+C:\Users\acer\Desktop\Project_RDP_NT106\RDP\obj\x64\Debug\RDP.RemoteDesktop.resources
+C:\Users\acer\Desktop\Project_RDP_NT106\RDP\obj\x64\Debug\RDP.csproj.GenerateResource.cache
+C:\Users\acer\Desktop\Project_RDP_NT106\RDP\obj\x64\Debug\RDP.csproj.CoreCompileInputs.cache
+C:\Users\acer\Desktop\Project_RDP_NT106\RDP\obj\x64\Debug\RDP.csproj.CopyComplete
+C:\Users\acer\Desktop\Project_RDP_NT106\RDP\obj\x64\Debug\RDP.exe
+C:\Users\acer\Desktop\Project_RDP_NT106\RDP\obj\x64\Debug\RDP.pdb
+D:\L\UIT\2nd\LTM\Project_RDP_NT106 (2)\RDP\bin\x64\Debug\RDP.exe.config
+D:\L\UIT\2nd\LTM\Project_RDP_NT106 (2)\RDP\bin\x64\Debug\RDP.exe
+D:\L\UIT\2nd\LTM\Project_RDP_NT106 (2)\RDP\bin\x64\Debug\RDP.pdb
+D:\L\UIT\2nd\LTM\Project_RDP_NT106 (2)\RDP\bin\x64\Debug\AxMSTSCLib.dll
+D:\L\UIT\2nd\LTM\Project_RDP_NT106 (2)\RDP\bin\x64\Debug\MSTSCLib.dll
+D:\L\UIT\2nd\LTM\Project_RDP_NT106 (2)\RDP\bin\x64\Debug\Newtonsoft.Json.dll
+D:\L\UIT\2nd\LTM\Project_RDP_NT106 (2)\RDP\bin\x64\Debug\ZeroTier.Sockets.dll
+D:\L\UIT\2nd\LTM\Project_RDP_NT106 (2)\RDP\bin\x64\Debug\libzt.dll
+D:\L\UIT\2nd\LTM\Project_RDP_NT106 (2)\RDP\bin\x64\Debug\ZeroTier.Source.ReadOnly\AddressInfo.cs
+D:\L\UIT\2nd\LTM\Project_RDP_NT106 (2)\RDP\bin\x64\Debug\ZeroTier.Source.ReadOnly\Constants.cs
+D:\L\UIT\2nd\LTM\Project_RDP_NT106 (2)\RDP\bin\x64\Debug\ZeroTier.Source.ReadOnly\Event.cs
+D:\L\UIT\2nd\LTM\Project_RDP_NT106 (2)\RDP\bin\x64\Debug\ZeroTier.Source.ReadOnly\MulticastInfo.cs
+D:\L\UIT\2nd\LTM\Project_RDP_NT106 (2)\RDP\bin\x64\Debug\ZeroTier.Source.ReadOnly\NetworkInfo.cs
+D:\L\UIT\2nd\LTM\Project_RDP_NT106 (2)\RDP\bin\x64\Debug\ZeroTier.Source.ReadOnly\NetworkStream.cs
+D:\L\UIT\2nd\LTM\Project_RDP_NT106 (2)\RDP\bin\x64\Debug\ZeroTier.Source.ReadOnly\Node.cs
+D:\L\UIT\2nd\LTM\Project_RDP_NT106 (2)\RDP\bin\x64\Debug\ZeroTier.Source.ReadOnly\NodeInfo.cs
+D:\L\UIT\2nd\LTM\Project_RDP_NT106 (2)\RDP\bin\x64\Debug\ZeroTier.Source.ReadOnly\PeerInfo.cs
+D:\L\UIT\2nd\LTM\Project_RDP_NT106 (2)\RDP\bin\x64\Debug\ZeroTier.Source.ReadOnly\RouteInfo.cs
+D:\L\UIT\2nd\LTM\Project_RDP_NT106 (2)\RDP\bin\x64\Debug\ZeroTier.Source.ReadOnly\Socket.cs
+D:\L\UIT\2nd\LTM\Project_RDP_NT106 (2)\RDP\bin\x64\Debug\ZeroTier.Source.ReadOnly\SocketException.cs
+D:\L\UIT\2nd\LTM\Project_RDP_NT106 (2)\RDP\bin\x64\Debug\ZeroTier.Source.ReadOnly\example.cs
+D:\L\UIT\2nd\LTM\Project_RDP_NT106 (2)\RDP\bin\x64\Debug\AxInterop.RDPCOMAPILib.dll
+D:\L\UIT\2nd\LTM\Project_RDP_NT106 (2)\RDP\bin\x64\Debug\Interop.RDPCOMAPILib.dll
+D:\L\UIT\2nd\LTM\Project_RDP_NT106 (2)\RDP\obj\x64\Debug\RDP.csproj.AssemblyReference.cache
+D:\L\UIT\2nd\LTM\Project_RDP_NT106 (2)\RDP\obj\x64\Debug\RDP.csproj.SuggestedBindingRedirects.cache
+D:\L\UIT\2nd\LTM\Project_RDP_NT106 (2)\RDP\obj\x64\Debug\Interop.MsRdpSessionManager.dll
+D:\L\UIT\2nd\LTM\Project_RDP_NT106 (2)\RDP\obj\x64\Debug\Interop.MsRdpWebAccessLib.dll
+D:\L\UIT\2nd\LTM\Project_RDP_NT106 (2)\RDP\obj\x64\Debug\Interop.MSTSCLib.dll
+D:\L\UIT\2nd\LTM\Project_RDP_NT106 (2)\RDP\obj\x64\Debug\Interop.PXWizardProxyStub.dll
+D:\L\UIT\2nd\LTM\Project_RDP_NT106 (2)\RDP\obj\x64\Debug\Interop.RDPCOMAPILib.dll
+D:\L\UIT\2nd\LTM\Project_RDP_NT106 (2)\RDP\obj\x64\Debug\Interop.RdpCoreTSLib.dll
+D:\L\UIT\2nd\LTM\Project_RDP_NT106 (2)\RDP\obj\x64\Debug\Interop.RDPRelayTransportConnectorLib.dll
+D:\L\UIT\2nd\LTM\Project_RDP_NT106 (2)\RDP\obj\x64\Debug\RDP.csproj.ResolveComReference.cache
+D:\L\UIT\2nd\LTM\Project_RDP_NT106 (2)\RDP\obj\x64\Debug\RDP.Chat.resources
+D:\L\UIT\2nd\LTM\Project_RDP_NT106 (2)\RDP\obj\x64\Debug\RDP.Login.resources
+D:\L\UIT\2nd\LTM\Project_RDP_NT106 (2)\RDP\obj\x64\Debug\RDP.ScreenShare.resources
+D:\L\UIT\2nd\LTM\Project_RDP_NT106 (2)\RDP\obj\x64\Debug\RDP.Properties.Resources.resources
+D:\L\UIT\2nd\LTM\Project_RDP_NT106 (2)\RDP\obj\x64\Debug\RDP.RemoteDesktop.resources
+D:\L\UIT\2nd\LTM\Project_RDP_NT106 (2)\RDP\obj\x64\Debug\RDP.csproj.GenerateResource.cache
+D:\L\UIT\2nd\LTM\Project_RDP_NT106 (2)\RDP\obj\x64\Debug\RDP.csproj.CoreCompileInputs.cache
+D:\L\UIT\2nd\LTM\Project_RDP_NT106 (2)\RDP\obj\x64\Debug\RDP.csproj.CopyComplete
+D:\L\UIT\2nd\LTM\Project_RDP_NT106 (2)\RDP\obj\x64\Debug\RDP.exe
+D:\L\UIT\2nd\LTM\Project_RDP_NT106 (2)\RDP\obj\x64\Debug\RDP.pdb

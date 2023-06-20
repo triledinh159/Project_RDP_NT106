@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\L\\UIT\\2nd\\LTM\\Project_RDP_NT106 (2)\\RDP\\RDP.csproj": {}
+  },
+  "projects": {
+    "D:\\L\\UIT\\2nd\\LTM\\Project_RDP_NT106 (2)\\RDP\\RDP.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\L\\UIT\\2nd\\LTM\\Project_RDP_NT106 (2)\\RDP\\RDP.csproj",
+        "projectName": "RDP",
+        "projectPath": "D:\\L\\UIT\\2nd\\LTM\\Project_RDP_NT106 (2)\\RDP\\RDP.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\L\\UIT\\2nd\\LTM\\Project_RDP_NT106 (2)\\RDP\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "AxMSTSCLib": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "ZeroTier.Sockets": {
+              "target": "Package",
+              "version": "[1.8.4, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

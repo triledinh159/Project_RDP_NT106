@@ -18,7 +18,7 @@ namespace RDP
             // see https://aka.ms/applicationconfiguration.
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new RemoteDesktop());
+            Application.Run(new Login());
         }
     }
 }

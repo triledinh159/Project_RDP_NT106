@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "VT6GKgeRLox2Hj046y/w8MeBqYiX+kuo4sbWc1iDvJl313RUNjOUlThwSsdm0qBJA+n+zttsUQROlDAD6j4qIw==",
+  "success": true,
+  "projectFilePath": "D:\\L\\UIT\\2nd\\LTM\\Project_RDP_NT106 (2)\\RDP\\RDP.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\axmstsclib\\1.0.1\\axmstsclib.1.0.1.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\zerotier.sockets\\1.8.4\\zerotier.sockets.1.8.4.nupkg.sha512"
+  ],
+  "logs": []
+}

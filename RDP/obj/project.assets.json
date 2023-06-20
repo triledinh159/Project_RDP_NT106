@@ -1,0 +1,798 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8": {
+      "AxMSTSCLib/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net40/AxMSTSCLib.dll": {},
+          "lib/net40/MSTSCLib.dll": {}
+        },
+        "runtime": {
+          "lib/net40/AxMSTSCLib.dll": {},
+          "lib/net40/MSTSCLib.dll": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "ZeroTier.Sockets/1.8.4": {
+        "type": "package",
+        "compile": {
+          "lib/net48/ZeroTier.Sockets.dll": {},
+          "lib/net48/libzt.dll": {}
+        },
+        "runtime": {
+          "lib/net48/ZeroTier.Sockets.dll": {},
+          "lib/net48/libzt.dll": {}
+        },
+        "contentFiles": {
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/AddressInfo.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/AddressInfo.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/Constants.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/Constants.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/Event.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/Event.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/MulticastInfo.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/MulticastInfo.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/NetworkInfo.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/NetworkInfo.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/NetworkStream.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/NetworkStream.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/Node.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/Node.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/NodeInfo.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/NodeInfo.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/PeerInfo.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/PeerInfo.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/RouteInfo.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/RouteInfo.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/Socket.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/Socket.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/SocketException.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/SocketException.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/example.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/example.cs"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win10-x64/native/libzt.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          }
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win": {
+      "AxMSTSCLib/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net40/AxMSTSCLib.dll": {},
+          "lib/net40/MSTSCLib.dll": {}
+        },
+        "runtime": {
+          "lib/net40/AxMSTSCLib.dll": {},
+          "lib/net40/MSTSCLib.dll": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "ZeroTier.Sockets/1.8.4": {
+        "type": "package",
+        "compile": {
+          "lib/net48/ZeroTier.Sockets.dll": {},
+          "lib/net48/libzt.dll": {}
+        },
+        "runtime": {
+          "lib/net48/ZeroTier.Sockets.dll": {},
+          "lib/net48/libzt.dll": {}
+        },
+        "contentFiles": {
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/AddressInfo.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/AddressInfo.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/Constants.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/Constants.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/Event.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/Event.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/MulticastInfo.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/MulticastInfo.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/NetworkInfo.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/NetworkInfo.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/NetworkStream.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/NetworkStream.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/Node.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/Node.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/NodeInfo.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/NodeInfo.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/PeerInfo.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/PeerInfo.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/RouteInfo.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/RouteInfo.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/Socket.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/Socket.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/SocketException.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/SocketException.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/example.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/example.cs"
+          }
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-arm64": {
+      "AxMSTSCLib/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net40/AxMSTSCLib.dll": {},
+          "lib/net40/MSTSCLib.dll": {}
+        },
+        "runtime": {
+          "lib/net40/AxMSTSCLib.dll": {},
+          "lib/net40/MSTSCLib.dll": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "ZeroTier.Sockets/1.8.4": {
+        "type": "package",
+        "compile": {
+          "lib/net48/ZeroTier.Sockets.dll": {},
+          "lib/net48/libzt.dll": {}
+        },
+        "runtime": {
+          "lib/net48/ZeroTier.Sockets.dll": {},
+          "lib/net48/libzt.dll": {}
+        },
+        "contentFiles": {
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/AddressInfo.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/AddressInfo.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/Constants.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/Constants.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/Event.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/Event.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/MulticastInfo.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/MulticastInfo.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/NetworkInfo.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/NetworkInfo.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/NetworkStream.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/NetworkStream.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/Node.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/Node.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/NodeInfo.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/NodeInfo.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/PeerInfo.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/PeerInfo.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/RouteInfo.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/RouteInfo.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/Socket.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/Socket.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/SocketException.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/SocketException.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/example.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/example.cs"
+          }
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-x64": {
+      "AxMSTSCLib/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net40/AxMSTSCLib.dll": {},
+          "lib/net40/MSTSCLib.dll": {}
+        },
+        "runtime": {
+          "lib/net40/AxMSTSCLib.dll": {},
+          "lib/net40/MSTSCLib.dll": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "ZeroTier.Sockets/1.8.4": {
+        "type": "package",
+        "compile": {
+          "lib/net48/ZeroTier.Sockets.dll": {},
+          "lib/net48/libzt.dll": {}
+        },
+        "runtime": {
+          "lib/net48/ZeroTier.Sockets.dll": {},
+          "lib/net48/libzt.dll": {}
+        },
+        "contentFiles": {
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/AddressInfo.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/AddressInfo.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/Constants.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/Constants.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/Event.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/Event.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/MulticastInfo.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/MulticastInfo.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/NetworkInfo.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/NetworkInfo.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/NetworkStream.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/NetworkStream.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/Node.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/Node.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/NodeInfo.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/NodeInfo.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/PeerInfo.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/PeerInfo.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/RouteInfo.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/RouteInfo.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/Socket.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/Socket.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/SocketException.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/SocketException.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/example.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/example.cs"
+          }
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-x86": {
+      "AxMSTSCLib/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net40/AxMSTSCLib.dll": {},
+          "lib/net40/MSTSCLib.dll": {}
+        },
+        "runtime": {
+          "lib/net40/AxMSTSCLib.dll": {},
+          "lib/net40/MSTSCLib.dll": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "ZeroTier.Sockets/1.8.4": {
+        "type": "package",
+        "compile": {
+          "lib/net48/ZeroTier.Sockets.dll": {},
+          "lib/net48/libzt.dll": {}
+        },
+        "runtime": {
+          "lib/net48/ZeroTier.Sockets.dll": {},
+          "lib/net48/libzt.dll": {}
+        },
+        "contentFiles": {
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/AddressInfo.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/AddressInfo.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/Constants.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/Constants.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/Event.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/Event.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/MulticastInfo.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/MulticastInfo.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/NetworkInfo.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/NetworkInfo.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/NetworkStream.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/NetworkStream.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/Node.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/Node.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/NodeInfo.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/NodeInfo.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/PeerInfo.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/PeerInfo.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/RouteInfo.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/RouteInfo.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/Socket.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/Socket.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/SocketException.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/SocketException.cs"
+          },
+          "contentFiles/cs/any/ZeroTier.Source.ReadOnly/example.cs": {
+            "buildAction": "None",
+            "codeLanguage": "cs",
+            "copyToOutput": true,
+            "outputPath": "ZeroTier.Source.ReadOnly/example.cs"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AxMSTSCLib/1.0.1": {
+      "sha512": "0E+hYIxxnRXtfHi/sgFSTBLThkOpVEWfsLW0s27MOVyINfp2FdMsCVVunvmA2RpPiBTK7SjidgmQvlSMWGywFw==",
+      "type": "package",
+      "path": "axmstsclib/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "axmstsclib.1.0.1.nupkg.sha512",
+        "axmstsclib.nuspec",
+        "lib/net40/AxMSTSCLib.dll",
+        "lib/net40/MSTSCLib.dll"
+      ]
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "ZeroTier.Sockets/1.8.4": {
+      "sha512": "xoRDd3Kli4nTXzglCNOZAA/SThdDscMN3CyV8q+o1RBzpxB0CoamHT2HwHxfIvALzu8qx8QMknRmYH5r8QlnCw==",
+      "type": "package",
+      "path": "zerotier.sockets/1.8.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "build/libzt.dll",
+        "contentFiles/cs/any/ZeroTier.Source.ReadOnly/AddressInfo.cs",
+        "contentFiles/cs/any/ZeroTier.Source.ReadOnly/Constants.cs",
+        "contentFiles/cs/any/ZeroTier.Source.ReadOnly/Event.cs",
+        "contentFiles/cs/any/ZeroTier.Source.ReadOnly/MulticastInfo.cs",
+        "contentFiles/cs/any/ZeroTier.Source.ReadOnly/NetworkInfo.cs",
+        "contentFiles/cs/any/ZeroTier.Source.ReadOnly/NetworkStream.cs",
+        "contentFiles/cs/any/ZeroTier.Source.ReadOnly/Node.cs",
+        "contentFiles/cs/any/ZeroTier.Source.ReadOnly/NodeInfo.cs",
+        "contentFiles/cs/any/ZeroTier.Source.ReadOnly/PeerInfo.cs",
+        "contentFiles/cs/any/ZeroTier.Source.ReadOnly/RouteInfo.cs",
+        "contentFiles/cs/any/ZeroTier.Source.ReadOnly/Socket.cs",
+        "contentFiles/cs/any/ZeroTier.Source.ReadOnly/SocketException.cs",
+        "contentFiles/cs/any/ZeroTier.Source.ReadOnly/example.cs",
+        "icon.png",
+        "lib/net40/ZeroTier.Sockets.dll",
+        "lib/net40/libzt.dll",
+        "lib/net45/ZeroTier.Sockets.dll",
+        "lib/net45/libzt.dll",
+        "lib/net451/ZeroTier.Sockets.dll",
+        "lib/net451/libzt.dll",
+        "lib/net452/ZeroTier.Sockets.dll",
+        "lib/net452/libzt.dll",
+        "lib/net46/ZeroTier.Sockets.dll",
+        "lib/net46/libzt.dll",
+        "lib/net461/ZeroTier.Sockets.dll",
+        "lib/net461/libzt.dll",
+        "lib/net462/ZeroTier.Sockets.dll",
+        "lib/net462/libzt.dll",
+        "lib/net47/ZeroTier.Sockets.dll",
+        "lib/net47/libzt.dll",
+        "lib/net471/ZeroTier.Sockets.dll",
+        "lib/net471/libzt.dll",
+        "lib/net472/ZeroTier.Sockets.dll",
+        "lib/net472/libzt.dll",
+        "lib/net48/ZeroTier.Sockets.dll",
+        "lib/net48/libzt.dll",
+        "lib/net5.0/ZeroTier.Sockets.dll",
+        "lib/net5.0/libzt.dll",
+        "lib/netcoreapp1.0/ZeroTier.Sockets.dll",
+        "lib/netcoreapp1.0/libzt.dll",
+        "lib/netcoreapp1.1/ZeroTier.Sockets.dll",
+        "lib/netcoreapp1.1/libzt.dll",
+        "lib/netcoreapp2.0/ZeroTier.Sockets.dll",
+        "lib/netcoreapp2.0/libzt.dll",
+        "lib/netcoreapp2.1/ZeroTier.Sockets.dll",
+        "lib/netcoreapp2.1/libzt.dll",
+        "lib/netcoreapp2.2/ZeroTier.Sockets.dll",
+        "lib/netcoreapp2.2/libzt.dll",
+        "lib/netcoreapp3.0/ZeroTier.Sockets.dll",
+        "lib/netcoreapp3.0/libzt.dll",
+        "lib/netcoreapp3.1/ZeroTier.Sockets.dll",
+        "lib/netcoreapp3.1/libzt.dll",
+        "lib/netstandard1.3/ZeroTier.Sockets.dll",
+        "lib/netstandard1.3/libzt.dll",
+        "lib/netstandard1.4/ZeroTier.Sockets.dll",
+        "lib/netstandard1.4/libzt.dll",
+        "lib/netstandard1.5/ZeroTier.Sockets.dll",
+        "lib/netstandard1.5/libzt.dll",
+        "lib/netstandard1.6/ZeroTier.Sockets.dll",
+        "lib/netstandard1.6/libzt.dll",
+        "lib/netstandard2.0/ZeroTier.Sockets.dll",
+        "lib/netstandard2.0/libzt.dll",
+        "lib/netstandard2.1/ZeroTier.Sockets.dll",
+        "lib/netstandard2.1/libzt.dll",
+        "readme.txt",
+        "ref/native/libzt.dll",
+        "ref/uap10.0/libzt.dll",
+        "runtimes/win10-x64/lib/uap10.0/libzt.dll",
+        "runtimes/win10-x64/native/libzt.dll",
+        "zerotier.sockets.1.8.4.nupkg.sha512",
+        "zerotier.sockets.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8": [
+      "AxMSTSCLib >= 1.0.1",
+      "Newtonsoft.Json >= 13.0.3",
+      "ZeroTier.Sockets >= 1.8.4"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\admin\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\L\\UIT\\2nd\\LTM\\Project_RDP_NT106 (2)\\RDP\\RDP.csproj",
+      "projectName": "RDP",
+      "projectPath": "D:\\L\\UIT\\2nd\\LTM\\Project_RDP_NT106 (2)\\RDP\\RDP.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "D:\\L\\UIT\\2nd\\LTM\\Project_RDP_NT106 (2)\\RDP\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net48"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net48": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net48": {
+        "dependencies": {
+          "AxMSTSCLib": {
+            "target": "Package",
+            "version": "[1.0.1, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.3, )"
+          },
+          "ZeroTier.Sockets": {
+            "target": "Package",
+            "version": "[1.8.4, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-arm64": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}
